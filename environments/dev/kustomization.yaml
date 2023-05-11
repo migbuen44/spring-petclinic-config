@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
 - ../../app/
 images:
-- digest: sha256:5c532b99c84564e2e377e36ba6c9a543d3f7ff4710106907cb9a3e0b63087140
+- digest: sha256:c0f6567888fef27d353a7c660c5933fc10296399dd274c776be5ce1d4081ca50
   name: quay.io/hybridcloudpatterns/spring-petclinic:latest
-  newName: quay-registry-quay-quay-enterprise.apps.jr-dsohub.blueprints.rhecoeng.com/devel/spring-petclinic
+  newName: quay-registry-quay-quay-enterprise.apps.lc-devsec-ad0b-1.blueprints.rhecoeng.com/devel/spring-petclinic
