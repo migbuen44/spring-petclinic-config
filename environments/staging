@@ -1,0 +1,8 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- ../../app/
+images:
+- digest: sha256:2a8ab6be1545ba45d79936351229c9bc34ee6e11c0a3bcb09e35a81b075d80ae
+  name: quay.io/hybridcloudpatterns/spring-petclinic:latest
+  newName: quay-registry-quay-quay-enterprise.apps.ocp-aws-hub.rhmulticloud-az.com/devel/spring-petclinic
