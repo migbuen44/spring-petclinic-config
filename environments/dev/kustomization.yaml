@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
 - ../../app/
 images:
-- digest: sha256:2a8ab6be1545ba45d79936351229c9bc34ee6e11c0a3bcb09e35a81b075d80ae
+- digest: sha256:e2282b7e295fb1a53805607725ee5f97763d18ebc1a94d3d9d557af40783aced
   name: quay.io/hybridcloudpatterns/spring-petclinic:latest
   newName: quay-registry-quay-quay-enterprise.apps.ocp-aws-hub.rhmulticloud-az.com/devel/spring-petclinic
